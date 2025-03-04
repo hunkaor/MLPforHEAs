@@ -1,0 +1,2 @@
+git commit -m "remove cif files"  # commit with comment
+git push origin main  # push to github

@@ -1,6 +1,6 @@
 INCAR created by Atomic Simulation Environment
- ENCUT = 560.000000
- KSPACING = 0.100000
+ ENCUT = 300.000000
+ KSPACING = 0.500000
  SIGMA = 0.160000
  EDIFF = 1.00e-06
  SYMPREC = 1.00e-04

@@ -13,6 +13,7 @@ from ase.build import bulk
 import matplotlib.pyplot as plt
 import json
 
+
 def check_convergence(outcar_content):
     """
     Check whether the VASP converged within EDIFF.
@@ -128,6 +129,11 @@ calc = Vasp(prec   = 'high',
             ncore=1,
             kpar=11
             )
+
+# c = json.loads(json.dumps(calc.todict()))
+# print(type(c))
+# print(c["directory"])
+
 
 input_db_path = 'db/TiZrHfTaNb.db'
 output_db_path = input_db_path.split('.')[0] + '_relax.db'

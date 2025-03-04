@@ -1,11 +1,4 @@
  vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Apr 14 2022 13:33:42) complex          
   
- POSCAR found type information on POSCAR  Ti
- POSCAR found :  1 types and       1 ions
- LDA part: xc-table for Pade appr. of Perdew
- generate k-points for:   28   28   28
- POSCAR, INCAR and KPOINTS ok, starting setup
- FFT: planning ...
- WAVECAR not read
- entering main loop
-       N       E                     dE             d eps       ncg     rms          rms(c)
+ POSCAR found type information on POSCAR  Ti Nb
+ POSCAR found :  2 types and       3 ions
